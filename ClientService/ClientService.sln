@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderEase.ClientService.Dom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderEase.ClientService.WebApi", "src\WebApi\OrderEase.ClientService.WebApi.csproj", "{6FF2DC34-BA19-4172-99C3-6CEB9ACF6239}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderEase.ClientService.Application", "src\Application\OrderEase.ClientService.Application.csproj", "{7D0A371B-F82E-4112-8E99-CE3DF04D93D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderEase.ClientService.Infra", "src\Infra\OrderEase.ClientService.Infra.csproj", "{720B293B-A59C-48C3-8C09-D7E1362E2AF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{6FF2DC34-BA19-4172-99C3-6CEB9ACF6239}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FF2DC34-BA19-4172-99C3-6CEB9ACF6239}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FF2DC34-BA19-4172-99C3-6CEB9ACF6239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0A371B-F82E-4112-8E99-CE3DF04D93D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0A371B-F82E-4112-8E99-CE3DF04D93D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0A371B-F82E-4112-8E99-CE3DF04D93D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0A371B-F82E-4112-8E99-CE3DF04D93D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720B293B-A59C-48C3-8C09-D7E1362E2AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720B293B-A59C-48C3-8C09-D7E1362E2AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720B293B-A59C-48C3-8C09-D7E1362E2AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720B293B-A59C-48C3-8C09-D7E1362E2AF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D4D2CDFF-FAB8-454B-BBD0-CE3B9E6E2873} = {F7662832-E94B-4CA9-B7DF-396ABC5C2E09}
 		{6FF2DC34-BA19-4172-99C3-6CEB9ACF6239} = {F7662832-E94B-4CA9-B7DF-396ABC5C2E09}
+		{7D0A371B-F82E-4112-8E99-CE3DF04D93D6} = {F7662832-E94B-4CA9-B7DF-396ABC5C2E09}
+		{720B293B-A59C-48C3-8C09-D7E1362E2AF7} = {F7662832-E94B-4CA9-B7DF-396ABC5C2E09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6705EFF-8ABC-4C7D-942B-4E76B91A4749}
